@@ -5,9 +5,10 @@
   <title>表单上传</title>
 </head>
 <body>
-  <form action="doAction.php" method="post" enctype="multipart/form-data">
+  <form action="doAction1.php" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="Max_FILE_SIZE" value="124100">
     请选择您要上传的文件：
-    <input type="file" name="myFile" /><br>
+    <input type="file" name="myFile" accept="image/jpeg, image/gif, image/png" /><br>
     <input type="submit" value="上传文件">
   </form>
 </body>

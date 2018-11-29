@@ -24,4 +24,12 @@ function t3() {
   }
 }
 
-var_dump(t1());
+try {
+  var_dump(t1());
+} catch(Exception $e) {
+  echo '文件：' . $e->getFile();
+  echo '<br>';
+  echo '行号：' . $e->getLine();
+  echo '<br>';
+  echo '错误信息：' . $e->getMessage();
+}

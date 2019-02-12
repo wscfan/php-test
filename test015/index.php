@@ -8,6 +8,8 @@
   <h1>正则表达式</h1>
   <ul>
     <li><a href="1.php">1.php</a></li>
+    <li><a href="2.php">2.php</a></li>
+    <li><a href="3.php">3.php</a></li>
   </ul>
 </body>
 </html>

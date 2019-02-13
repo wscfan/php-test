@@ -10,6 +10,14 @@
     <li><a href="1.php">1.php</a></li>
     <li><a href="2.php">2.php</a></li>
     <li><a href="3.php">3.php</a></li>
+    <li><a href="4.php">4.php</a></li>
+    <li><a href="5.php">5.php</a></li>
+    <li><a href="6.php">6.php</a></li>
+    <li><a href="7.php">7.php</a></li>
+    <li><a href="8.php">8.php</a></li>
+    <li><a href="9.php">9.php</a></li>
+    <li><a href="10.php">10.php</a></li>
+    <li><a href="11.php">11.php</a></li>
   </ul>
 </body>
 </html>

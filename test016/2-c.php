@@ -2,8 +2,9 @@
 
 $fk = fsockopen('localhost', 80, $errno, $errstr, 5);
 $s = array(
-  'GET /php-test/test016/aa.html HTTP/1.1',
+  'GET /php-test/test016/2.php HTTP/1.1',
   'host:localhost',
+  'cookie:name=admin',
   '',
   ''
 );
